@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_me">
+
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="com.example.accessmentnine.ui.me.MeFragment"
+        android:label="ME"
+        tools:layout="@layout/fragment_me" />
+
+    <fragment
+        android:id="@+id/navigation_myFamily"
+        android:name="com.example.accessmentnine.ui.myFamily.MyFamilyFragment"
+        android:label="MY FAMILY"
+        tools:layout="@layout/fragment_myfamily" />
+
+    <fragment
+        android:id="@+id/navigation_myFriends"
+        android:name="com.example.accessmentnine.ui.myFriends.MyFriendsFragment"
+        android:label="MY FRIENDS"
+        tools:layout="@layout/fragment_myfriends" />
+</navigation>
